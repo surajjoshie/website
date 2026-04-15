@@ -1,3 +1,11 @@
+---
+title: "क्लाउड-नेटिव सुरक्षा और कुबेरनेट्स (Cloud Native Security and Kubernetes)"
+weight: 85
+description: >
+  क्लाउड नेटिव वर्कलोड को सुरक्षित (secure) रखने के लिए महत्वपूर्ण अवधारणाएँ।
+simple_list: true
+---
+
 # Cloud Native Security and Kubernetes
 
 क्लाउड नेटिव वर्कलोड को सुरक्षित (secure) रखने के लिए महत्वपूर्ण अवधारणाएँ।
@@ -125,13 +133,11 @@ Containers isolation और resource sharing दोनों प्रदान 
 
 ##आगे क्या है
 
-- Cloud native security
-- CNCF white paper on cloud native security
-- Secure software supply chain practices
-- Kubernetes Security Best Practices
-- Data encryption in transit
-- Data encryption at rest
-- Secrets in Kubernetes
-- Network policies for Pods
-- Pod Security Standards
-- RuntimeClasses
+* [क्लाउड-नेटिव सुरक्षा (Cloud native security)](/docs/concepts/security/cloud-native-security/)
+* [कुबेरनेट्स सुरक्षा की सर्वोत्तम प्रथाएं (Kubernetes Security Best Practices)](/docs/tasks/administer-cluster/securing-a-cluster/)
+* [ट्रांजिट में डेटा एन्क्रिप्शन (Data encryption in transit)](/docs/tasks/tls/managing-tls-in-a-cluster/)
+* [एट-रेस्ट डेटा एन्क्रिप्शन (Data encryption at rest)](/docs/tasks/administer-cluster/encrypt-data/)
+* [कुबेरनेट्स में सीक्रेट्स (Secrets in Kubernetes)](/docs/concepts/configuration/secret/)
+* [पॉड्स के लिए नेटवर्क नीतियां (Network policies for Pods)](/docs/concepts/services-networking/network-policies/)
+* [पॉड सुरक्षा मानक (Pod Security Standards)](/docs/concepts/security/pod-security-standards/)
+* [रनटाइम क्लासेस (RuntimeClasses)](/docs/concepts/containers/runtime-class)
